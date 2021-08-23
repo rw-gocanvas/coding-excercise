@@ -1,0 +1,124 @@
+// Colors
+///
+/// PRIMARY COLORS
+/// - - - - - - - - - - - - - - - - - - - - - - - - -
+///
+/// BLUE
+$gc-blue: #039de7 !default;
+$gc-blue-lighter5: #d4f2ff !default;
+$gc-blue-lighter4: #b6e9fe !default;
+$gc-blue-lighter3: #7dd6fb !default;
+$gc-blue-lighter2: #4bc3f7 !default;
+$gc-blue-lighter1: #23b0f0 !default;
+$gc-blue-darker1: #0090da !default;
+$gc-blue-darker2: #0082c9 !default;
+$gc-blue-darker3: #0072b5 !default;
+$gc-blue-darker4: #00619e !default;
+$gc-blue-darker5: #005187 !default;
+
+/// DARK GRAY
+$gc-dark-gray: #414042 !default;
+$disabled-dark-gray1: #bebebe !default;
+$disabled-dark-gray: #92999d !default;
+$gc-dark-gray1: #515e62 !default;
+
+/// LIGHT GRAY
+$light-gray: #e2e2e2 !default;
+$disabled-light-gray: #bec8d1 !default;
+$light-gray1: #f9f9f9 !default;
+$light-gray2: #f0f0f0 !default;
+$light-gray3: #d8d8d8 !default;
+
+/// WHITE
+$white: #ffffff !default;
+
+///
+/// SECONDARY COLORS
+/// - - - - - - - - - - - - - - - - - - - - - - - - -
+///
+/// YELLOW
+$gc-yellow: #fca311 !default;
+$gc-yellow-lighter6: #fffaf2 !default;
+$gc-yellow-lighter5: #fff3d9 !default;
+$gc-yellow-lighter4: #ffecbf !default;
+$gc-yellow-lighter3: #ffd98a !default;
+$gc-yellow-lighter2: #ffc659 !default;
+$gc-yellow-lighter1: #ffb431 !default;
+$gc-yellow-darker1: #ea9200 !default;
+$gc-yellow-darker2: #d58600 !default;
+$gc-yellow-darker3: #bd7700 !default;
+$gc-yellow-darker4: #a26700 !default;
+$gc-yellow-darker5: #875600 !default;
+
+/// GREEN
+$gc-green: #198341 !default;
+$gc-green-lighter6: #f3fff2 !default;
+$gc-green-lighter5: #d7f9d7 !default;
+$gc-green-lighter4: #bdf4c0 !default;
+$gc-green-lighter3: #86e493 !default;
+$gc-green-lighter2: #56cb6f !default;
+$gc-green-lighter1: #32aa55 !default;
+$gc-green-darker1: #086225 !default;
+$gc-green-darker2: #044616 !default;
+$gc-green-darker3: #02330d !default;
+$gc-green-darker4: #012908 !default;
+$gc-green-darker5: #002604 !default;
+
+/// RED
+$gc-red: #d73a31 !default;
+$gc-red-lighter6: #fff5f2 !default;
+$gc-red-lighter5: #fce1da !default;
+$gc-red-lighter4: #f9cdc4 !default;
+$gc-red-lighter3: #f3a294 !default;
+$gc-red-lighter2: #ec7a6a !default;
+$gc-red-lighter1: #e35749 !default;
+$gc-red-darker1: #cd2017 !default;
+$gc-red-darker2: #bf1710 !default;
+$gc-red-darker3: #ae0e0a !default;
+$gc-red-darker4: #9b0604 !default;
+$gc-red-darker5: #870000 !default;
+
+///
+/// TERTIARY COLORS
+/// - - - - - - - - - - - - - - - - - - - - - - - - -
+///
+/// MIDNIGHT-BLUE
+$midnight-blue: #00305e !default;
+$midnight-blue-lighter5: #1257cd !default;
+$midnight-blue-lighter4: #004fbd !default;
+$midnight-blue-lighter3: #004ca9 !default;
+$midnight-blue-lighter2: #004592 !default;
+$midnight-blue-lighter1: #003a78 !default;
+
+/// EASTERN-BLUE
+$eastern-blue: #1682a2 !default;
+$eastern-blue-lighter5: #f2fbff !default;
+$eastern-blue-lighter4: #cfe8f3 !default;
+$eastern-blue-lighter3: #afd7e7 !default;
+$eastern-blue-lighter2: #79c0d9 !default;
+$eastern-blue-lighter1: #4eaac9 !default;
+$eastern-blue-darker1: #0779a2 !default;
+$eastern-blue-darker2: #05709f !default;
+$eastern-blue-darker3: #036599 !default;
+$eastern-blue-darker4: #015890 !default;
+$eastern-blue-darker5: #004d87 !default;
+
+/// GULL GRAY
+$gull-gray: #92a3b1 !default;
+$gull-gray-lighter5: #fbfcfd !default;
+$gull-gray-lighter4: #f2f5f9 !default;
+$gull-gray-lighter3: #e8edf3 !default;
+$gull-gray-lighter2: #d3dee8 !default;
+$gull-gray-lighter1: #beccda !default;
+$gull-gray-darker1: #7b8e9e !default;
+$gull-gray-darker2: #627485 !default;
+$gull-gray-darker3: #475665 !default;
+$gull-gray-darker4: #2c3641 !default;
+$gull-gray-darker5: #12171c !default;
+
+// Spacing
+$search-spacing: 1.5em;
+
+// Typography
+$system-fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;

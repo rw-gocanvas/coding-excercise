@@ -1,0 +1,44 @@
+.book--results {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: $search-spacing;
+  padding: $search-spacing;
+
+  @media (max-width: 60em) {
+    grid-template-columns: 1fr 1fr; 
+  }
+
+  @media (max-width: 40em) {
+    grid-template-columns: 1fr; 
+  }
+}
+
+.book--result {
+  border: 0.25em solid $gc-blue;
+  background-color: $gc-blue-lighter5;
+  border-radius: 0.5em;
+  padding: $search-spacing / 2;
+  display: grid;
+  grid-template-columns: 10em 1fr;
+  grid-gap: $search-spacing / 2;
+  align-items: center;
+}
+
+.book--cover {
+  display: block;
+  max-width: 100%; 
+  max-height: 10em;
+  margin: auto;
+  object-fit: contain;
+}
+
+.book--meta {
+  > * + * {
+    margin-top: 1em;
+  }
+}
+
+.book--title {
+  font-size: 1.5em;
+  font-weight: 600;
+}

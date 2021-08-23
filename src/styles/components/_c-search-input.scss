@@ -1,0 +1,27 @@
+
+.search--title {
+  text-align: center;
+  margin: $search-spacing;
+  font-size: 2em;
+}
+
+.search--wrap {
+  margin: auto;
+  width: 60vw;
+  display: flex;
+  font-size: 1.125em;
+  margin-bottom: $search-spacing;
+}
+
+.search--input {
+  font-size: inherit;
+  width: 100%;
+  padding: 0.25em 0.5em;
+  margin-right: 0.5em;
+}
+
+.search--button {
+  padding: 0.75em 1.5em;
+  font-weight: 600; 
+  text-transform: uppercase;
+}
