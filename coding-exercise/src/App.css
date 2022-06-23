@@ -1,0 +1,33 @@
+.App {
+  align-items: center;
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+  color: white;
+}
+
+.animal-card {
+  display: flex;
+  align-items: center;
+}
+
+
+img {
+  max-width: 40vw;
+  max-height: 30vh;
+}
+
+button {
+
+}
+
+.title-image-container {
+  padding: 5%;
+}
+
+.info-container {
+  padding: 5%;
+}

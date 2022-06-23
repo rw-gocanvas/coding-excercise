@@ -11,11 +11,7 @@ This can be as simple as a styled list of entries from any of the public APIs be
 
 The primary goal of this excercise is to provide us with code that we can discuss during the technical portion of the interview. If you already have a project that you've created that would fit the criteria please feel free to submit that instead.
 
+## To Start: 
+cd into the directory and again into the coding-exercise directory, then `npm install` followed by `npm start`.
 
-## Example Public APIs
-* The Star Wars API: https://swapi.dev/
-* PokeAPI: [PokéAPI](https://pokeapi.co/)
-* OpenWeather: [Weather API - OpenWeatherMap](https://openweathermap.org/api)
-* Open Library: [Developer Center / APIs | Open Library](https://openlibrary.org/developers/api)
-* Open Brewery DB: [Open Brewery DB](https://www.openbrewerydb.org/)
-* Many More: [public-apis/README.md at master · public-apis/public-apis · GitHub](https://github.com/public-apis/public-apis/blob/master/README.md)
+The site should run on `localhost:3000`;
