@@ -14,14 +14,26 @@
   align-items: center;
 }
 
-
 img {
   max-width: 40vw;
-  max-height: 30vh;
+  height: auto;
 }
 
-button {
+.image-loading {
+  animation: fadeOut 2s;
+}
 
+.image-loaded {
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }   
+}
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }   
 }
 
 .title-image-container {
