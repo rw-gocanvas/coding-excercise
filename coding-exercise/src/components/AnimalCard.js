@@ -2,11 +2,17 @@ import { AnimalImage } from "./AnimalImage";
 import { AnimalName } from "./AnimalName";
 import { AnimalInfo } from './AnimalInfo';
 
+const placeholderSrc = 'https://via.placeholder.com/600x400/282c34/ffffff.png?text=Image+loading+...'
+
 export const AnimalCard = props => (
     <div className="animal-card">
         <div className="title-image-container">
             <AnimalName name={props.name}/>
-            <AnimalImage name={props.name} image={props.image_link} />
+            <AnimalImage
+                name={props.name} 
+                src={props.image_link} 
+                placeholderSrc={placeholderSrc}
+            />
         </div>
         <div className="info-container">
             <AnimalInfo
