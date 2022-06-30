@@ -12,8 +12,6 @@ export const AnimalCard = props => (
                 name={props.name} 
                 src={props.image_link} 
                 placeholderSrc={placeholderSrc}
-                // width="40vW"
-                // height="auto"
             />
         </div>
         <div className="info-container">
